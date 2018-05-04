@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 // Not typical or necessary. Can just say interface{} everywhere.
+//
+// Literally everything in Golang satisfies this interface.
 type blankInterface interface {
 }
 
